@@ -1,0 +1,1924 @@
+/*
+ Theme Name:   Twenty Seventeen Child
+ Template:     twentyseventeen
+ Text Domain:  twentyseventeen-child
+*/
+
+
+html,body{
+	font-family: 'Muller'!important;
+}
+.site-header
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.montserrat-medium
+{
+	font-family: 'Muller'!important;
+}
+.custom-header .header-menu .menu li a
+{
+	font-size: 16px;
+	color: #000000;
+	font-family:   'Muller'!important;
+	padding: 5px 35px;
+}
+.custom-header .header-menu #top-menu
+{
+	float: right;
+}
+.site-content-contain header.entry-header
+{
+	display: none;
+}
+.site-content-contain .entry-content
+{
+	width: 100% !important;
+}
+.site-header
+{
+	position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color:rgb(255,255,255,0.6);
+}
+.sec_middle{
+	display: flex;
+	align-items: center;
+}
+.title-heading
+{
+	font-family:  'Muller'!important;
+	font-size: 2.5vw;
+	color:#682524;
+	line-height: 40px;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+.title-heading-white
+{
+	font-family:'Muller'!important;
+	font-size: 30px;
+	color:#ffffff;
+	line-height: 55px;
+}
+.white{
+    color: #fff!important;
+}
+.center
+{
+	margin: 0 auto !important;
+	display: block !important;
+}
+.home-section-two
+{
+	padding-top: 60px;
+}
+.home-section-two .home-section-two-col1
+{
+	background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/01/cloud.png');
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+.home-section-two .description
+{
+	color: #000000;
+	font-size: 16px;
+}
+.service-description p
+{
+	color: #000000 !important;
+	font-size: 16px !important;
+	font-family:   'Muller'!important;
+}
+.sec3.our-services
+{
+	background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/04/bg1.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom_pad{
+    padding-bottom: 150px;
+}
+.home-key-features
+{
+	background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/01/Component-5-%E2%80%93-1-3.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.home-section-two .read-more-button 
+{
+	font-family:  'Muller'!important;
+	font-size: 18px;
+	color: #ffffff;
+	background-color: #682524;
+	padding: 15px 35px;
+	border-radius: 30px;
+}
+.home-section-two .read-more-button:hover
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.sec1,.sec3{
+    z-index:99;
+}
+.sec2{
+    position: absolute!important;
+    z-index:999;
+    height: 300px;
+    top: 30%;
+}
+.scooter{
+    position:absolute;
+    height:100%;    
+    width: 381px;
+    animation-name: sc;
+    animation-duration: 12s;
+    animation-direction: normal;
+    animation-iteration-count: 5; 
+    right: 140px;   
+}
+.thing-deliver-img 
+{
+	position: relative;
+	top:0px;
+	width: 35%;
+	margin:0 auto !important;
+}
+.feature-icon > figure > div > img {
+    width: 50%;
+}
+.key-features-head {
+    margin: 0px;
+}
+.feature-icon {
+    margin: 0px!important;
+}
+.why_caerus{
+    padding: 0px 0px 50px;
+}
+.contacthead{
+	margin: 5% 0px 5px;
+    padding-top: 4%!important;
+}
+.headercontact{
+	margin-bottom: 3%;
+	color: white;
+    text-align: center;
+}
+.copyright p a,.copyright p a:hover
+{
+	color: #ffffff !important;
+	box-shadow: none !important;
+	text-decoration: none;
+}
+/*@keyframes sc{
+	0%{
+		left: 0%;
+		height:100%;    
+		width: 381px;	
+	}*/
+	/*10%{
+		transform:rotate(-20deg);
+	}
+	30%{
+		transform:rotate(0deg);
+	}
+	40%{
+	transform:rotate(10deg);	
+	}
+	50%{
+		transform:rotate(0deg);
+	}*/
+	/*100%{
+		left: 100%;
+		height:100%;
+		width: 381px;   
+	}
+}*/
+.home-key-features
+{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.home-our-patners
+{
+	padding-top: 50px;
+}
+.home-center
+{
+	padding-top: 100px;
+}
+.home-key-features .key-features-head
+{
+	font-family:   'Muller'!important;
+	color: #000000;
+	font-size: 18px;
+	margin: 0;
+	padding:0;
+}
+.partners-logo figure.wpb_wrapper.vc_figure
+{
+	box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.18);
+    padding: 13px;
+}
+.home-center
+{
+	background-color: #f3f3f3;
+}
+.site-footer
+{
+	background-color: #1C1C1C;
+	margin: 0;
+	padding-top: 25px;
+	border: none;
+}
+.footer-address p a,.footer-address p
+{
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family:   'Muller'!important;
+	box-shadow: none !important;
+}
+.contadd p a,.contadd p{
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family:   'Muller'!important;
+	box-shadow: none !important;	
+}
+.conth{
+	height: auto;
+    display: flex!important;
+    align-items: flex-end;
+}
+.contadd p a:hover,.contadd p a:focus
+{
+	color: #ffffff !important;
+	text-decoration: none !important;
+	box-shadow: unset !important;
+}
+.footer-address p a:hover,.footer-address p a:focus
+{
+	color: #ffffff !important;
+	text-decoration: none !important;
+	box-shadow: unset !important;
+}
+.footer-social .social-icon a
+{
+	color: #ffffff;
+	font-size: 30px;
+	padding: 4px;
+	box-shadow: none;
+}
+.footer-social .social-icon a:hover,.footer-social .social-icon a:focus
+{
+	color: #ffffff !important;
+	text-decoration: none !important;
+	box-shadow: unset !important;
+}
+.footer-social .copyright p
+{
+	color: #ffffff;
+	font-family:   'Muller'!important;
+	font-size: 12px;
+}
+.footer-social .copyright
+{
+	margin-top: 20px;
+}
+.site-info
+{
+	display: none;
+}
+input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email {
+    color: #000!important;
+    font-weight: 400;
+}
+.pum-overlay{
+	display: block;
+}
+.bg_ab_1{
+background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/04/bg2.png');
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover!important;
+}
+.bg_ab_2{
+background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/04/bg3.png');
+background-size: cover;
+background-position: bottom center;
+min-height: 100vh;
+}
+.custom-header .header-menu .menu li a
+{
+	text-decoration: none;
+}
+.our-services .n2-ss-background-image
+{
+	display: none;
+}
+.about-caerus-section .description
+{
+	font-size: 16px;
+	color: #000000;
+	font-family: 'Muller'!important;
+}
+.our-presence-section .presence-heading
+{
+    text-transform: capitalize;
+	font-size: 16px;
+	color: #ffffff;
+	font-family:'Muller'!important;
+}
+.our-presence-section .description
+{
+	font-size: 16px;
+	font-family:   'Muller'!important;
+	color: #ffffff;
+	padding-right: 55%;
+	margin-top: 15px;
+}
+.about-deliveries-section .description
+{
+	font-size: 16px;
+	font-family:   'Muller'!important;
+	color: #000000;
+}
+.about-deliveries-section .title-heading
+{
+	padding: 0;
+}
+.about-deliveries-section .abour-delivery-col2
+{
+	padding-top: 60px;
+}
+.page:not(.home) #content
+{
+	padding-bottom: 0;
+	padding-top: 0;
+}
+.cargo-section-one
+{
+	background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/04/Group-3-2.png');
+	background-size: 100% 100%;
+}
+.cargo-section-one .cargo-section-one-row
+{
+	padding-top: 10%;
+}
+.cargo-section-one .caergo-section1-heading
+{
+	font-family: 'Muller'!important;
+	font-size: 35px;
+	margin: 0px;
+	color: #159FD9;
+}
+.cargo-section-one .description
+{
+	font-family:   'Muller'!important;
+	font-size: 16px;
+	color: #000000;
+	width: 80%;
+}
+.cargo-section-two
+{
+	background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/04/Mask-Group-10.png');
+}
+.cargo-section-two .cargo-air-head .description
+{
+	color: #FFFFFF;
+	font-family:   'Muller'!important;
+	font-size: 16px;
+}
+.cargo-air-row
+{
+	padding-top: 5%;
+}
+.cargo-air-row1 {
+    padding-bottom: 5%;
+}
+.cargo-section-two .cargo-air-head
+{
+	padding-left: 165px;
+	padding-right: 155px;
+}
+.cargo-section-two .express-cargo-head .description,.cargo-section-two .express-cargo-head .express-cargor-desc-list li
+{
+	color: #FFFFFF;
+	font-family:   'Muller'!important;
+	font-size: 16px;
+}
+.cargo-section-two .express-cargo-head 
+{
+	padding-right: 15%;
+	padding-top: 8%;
+}
+.cargo-section-two .express-cargo-head .express-cargor-desc-list
+{
+	list-style-position: inside;
+}
+.cargo-section-two .cargo-surface-head
+{
+	padding-left: 165px;
+	padding-right: 155px;
+}
+.cargo-section-two .cargo-surface-head .description
+{
+	color: #FFFFFF;
+	font-family:   'Muller'!important;
+	font-size: 16px;
+}
+.cargo-surface-row
+{
+	padding-top: 5%;
+}
+.domestic-courier-col2 img
+{
+	position: relative;
+	top: 35px;
+}
+/*.expo-bg-main
+{
+	background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/04/Mask-Group-5-1.png');
+	background-size: contain;
+	background-position: right bottom;	
+}
+*/
+.exp_bg{
+	background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/04/Mask-Group-4-1.png');
+	background-size: cover;
+}
+.export-slider-section
+{
+	background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/04/Group-2-3.png');
+	background-size: cover;
+  height: 100vh;
+}
+.export-slider-section .exports-section1-heading
+{
+	font-family: 'Muller'!important;
+	font-size: 35px;
+	color: #159FD9;
+	margin: 0px;
+	padding:10px 0px;
+	text-transform: capitalize;
+}
+.export-slider-section .description
+{
+	color: #000000;
+	font-family: 'Muller'!important;
+	font-size: 16px;
+	padding-right: 50%;
+}
+.export-slider-section .exports-section-one-row
+{
+	position: relative;
+	top:35%;
+}
+.export-section-two
+{
+	background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/04/Mask-Group-3-1.png');
+}
+/*.export-section-two .export-abroad-col1
+{
+	background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/01/export-cloud.png');
+	background-repeat: no-repeat;
+	margin-top: 10%;
+	padding-top: 10%;
+	padding-left: 10%;
+}*/
+.export-section-two .export-abroad-col1 .title-heading-white
+{
+	text-transform: capitalize;
+}
+.export-section-two .export-abroad-col1 .description
+{
+	color: #FFFFFF;
+	font-family:   'Muller'!important;
+	font-size: 16px;
+	padding-right: 25%;
+}
+.export-section-two .export-abroad-col2
+{
+	padding-top: 10%;
+	margin-top: 10%;
+}
+.export-section-two .export-abroad-col3
+{
+	padding-top: 10%;
+	margin-top: 10%;
+	background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/01/Fill-1-Copy-13.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.export-section-two .export-abroad-col2 .abroid-services .abroid-services-heading,
+.export-section-two .export-abroad-col3 .abroid-services .abroid-services-heading
+{
+	color: #ffffff;
+	font-family:'Muller'!important;
+	font-size: 16px;
+	margin-left: 10px;
+}
+.export-section-two .export-abroad-col2 .abroid-services,
+.export-section-two .export-abroad-col3 .abroid-services
+{
+	margin-top: 15px;
+}
+.export-licensing-row .title-heading-white
+{
+	text-transform: capitalize;
+}
+ul.express-cargor-desc-list li {
+    list-style-position: inside;
+}
+.export-section-two .export-licensing-row .description
+{
+	color: #FFFFFF;
+	font-family:   'Muller'!important;
+	font-size: 16px;
+}
+.export-section-two .export-licensing-row 
+{
+	padding-top: 5%;
+}
+.export-section-two .export-licensing-row .wpb_single_image
+{
+	margin-bottom: 0;
+}
+.courier-slider-section
+{
+	background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/04/Group-1-5.png');
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+
+.courier-slider-section .courier-section-heading
+{
+	font-family:'Muller'!important;
+	font-size: 35px;
+	color: #EA5C23;
+}
+.courier-slider-section  .description
+{
+	color: #000000;
+	font-family:   'Muller'!important;
+	font-size: 16px;
+	padding-right: 30%;
+}
+li#menu-item-21{
+  display: none;
+}
+.courier-section-two
+{
+	background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/04/Mask-Group-5-3.png');
+}
+.domestic_c img {
+    width: 100%;
+}
+.domestic_c p {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.courier-section-two .internation-courier-heading
+{
+	padding-top: 10%;
+	padding-left: 10%;
+}
+.courier-section-two .courier-international-row .courier-international-subhead
+{
+	color: #fff;
+	font-family:'Muller'!important;
+	font-size: 22px;
+	margin-left: 10px;
+}
+.courier-section-two .courier-international-row .description
+{
+	color: #ffffff;
+	font-family:   'Muller'!important;
+	font-size: 16px;
+	padding-top: 30px;
+}
+.courier-section-two .courier-domestic-row .description
+{
+	color: #ffffff;
+	font-family:   'Muller'!important;
+	font-size: 16px;
+	padding-right: 10%;
+
+}
+.courier-section-two .courier-domestic-row
+{
+	padding-top: 5%;
+	padding-bottom: 20%;
+}
+
+.contact-slider-section
+{
+	background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/02/Contact_3.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contact-form-section{
+	background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/04/Group-4-1.png');
+	background-repeat: no-repeat;
+	height: auto;
+	background-size: cover;
+}
+.contact-slider-section .contact-slider-text-row
+{
+	padding-top:5%;
+	padding-bottom: 5%;
+}
+.contact-slider-section .contact-slider-text-row .description a,.contact-slider-section .contact-slider-text-row .description
+{
+	font-family:'Muller'!important;
+	font-size: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	box-shadow: none;
+	margin-bottom: 15px;
+}
+.contact-form-section
+{
+	background-color: #ffffff;
+}
+.contact-slider-row
+{
+	padding-top: 13%;
+	padding-bottom: 4%;
+}
+.contact-form-section-row
+{
+	background-color: #ffffff;
+	box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.18);
+	    width: 60% !important;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.contact-form-section-row  .contact-form input,.contact-form-section-row  .contact-form textarea
+{
+	background-color: #EEEEEE;
+	border-radius: 0;
+    border: 1px solid #eeeeee;
+    height: 50px;
+    font-size: 18px;
+}
+.contact-form-section-row  .contact-form textarea
+{
+	height: 110px;
+}
+.contact-form-section-row  .contact-form .contact-field
+{
+	margin-top: 15px;
+}
+.contact-form-section-row  .contact-form ::placeholder
+{
+	font-family:   'Muller'!important;
+	font-size: 18px;
+	color: #999999;
+}
+.contact-form-section-row  .contact-form .field-button
+{
+	margin-top: 15px;
+}
+.contact-form-section-row  .contact-form .field-button input
+{
+	border: 2px solid #682524;
+	background-color: #ffffff;
+	color: #682524;
+	border-radius: 30px;
+	font-family:'Muller'!important;
+	padding: 10px 40px;
+}
+.contact-form-section-row
+{
+	padding-bottom: 4%;
+}
+.contact-map-section .vc_column-inner 
+{
+	padding-top: 0 !important;
+	height: 600px;
+}
+.enquiry-now-menu
+{
+	border:2px solid #682524 !important;
+	border-radius: 30px;
+	color: #682524 !important;
+}
+.bg_ab_2.our-presence-section
+{
+	background-color: #f3f3f3;
+}
+.courier-slider-section .courier-slider-row1
+{
+	padding-top: 0%;
+}
+.courier-slider-section .courier-slider-row2
+{
+	padding-top: 30%;
+    position: relative;
+    top: 40px;
+}
+/*#tab_container_501 .wpsm_nav-tabs > li > a{
+	border:none!important;
+}
+.inquiery-for-section #tab_container_501 .wpsm_nav-tabs > li.active > a,
+.inquiery-for-section #tab_container_501 .wpsm_nav-tabs > li.active > a:hover,
+.inquiery-for-section #tab_container_501 .wpsm_nav-tabs > li.active > a:focus{
+	border:none!important;
+	color: #fff!important;
+}
+.inquiery-for-section #tab_container_501 .wpsm_nav-tabs > li > a:hover, 
+.inquiery-for-section #tab_container_501 .wpsm_nav-tabs > li > a:focus{
+	border:none!important;
+}
+.inquiery-for-section #tab_container_501 .wpsm_nav-tabs > li > a{
+	border:none!important;
+}*/
+.inquiery-for-section #tab_container_501 .wpsm_nav-tabs > li > a{
+	background-color: transparent!important;
+}
+.inquiery-for-section #tab_container_501 .wpsm_nav-tabs > li > a:hover, 
+.inquiery-for-section #tab_container_501 .wpsm_nav-tabs > li > a:focus{
+	background-color: transparent!important;
+	color: #682524!important;
+}
+.inquiery-for-section #tab_container_501 .wpsm_nav-tabs > li.active > a,
+.inquiery-for-section #tab_container_501 .wpsm_nav-tabs > li.active > a:hover,
+.inquiery-for-section #tab_container_501 .wpsm_nav-tabs > li.active > a:focus{
+	background-color: #682524!important;
+	border: 2px solid #fff!important;
+	color: #fff!important;
+}
+.inquiery-for-section #tab_container_501 .wpsm_nav-tabs > li > a
+{
+color: #682524!important;
+}
+.vc_col-has-fill>.vc_column-inner, .vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill>.vc_column_container>.vc_column-inner{
+	padding-top: 0px!important;
+}
+.have {
+    overflow: hidden;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.have p {
+    margin: 0px;
+    color: #682524;
+    display: inline-block;
+    font-size: 24px;
+    width: 80%;
+    vertical-align: middle;
+}
+
+.have a {
+    background-color: #682524;
+    padding: 20px 35px;
+    border-radius: 50px;
+    color: #fff;
+    margin: 0px;
+    font-family: 'Muller'!important;
+    line-height: 0;
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: bold;
+}
+.career-form{
+  margin: 1% 0px 5%;
+}
+.career-form_1 {background-color: #fff!important;width: 100%;height: 100%;display: inline-block;padding: 30px;}
+.inquiery-for-section {
+    background: #fff;
+    height: 100%;
+    border-radius: 50px;
+    padding: 30px;
+}
+.career-form_1 > div >  div {
+    padding: 20px 0px;
+}
+input.wpcf7-form-control.wpcf7-submit {
+    border: 2px solid #682524!important;
+    background-color: #ffffff;
+    color: #682524;
+    border-radius: 30px;
+    font-family:'Muller'!important;
+    padding: 10px 40px;
+    font-size: 18px;
+}
+#tab_container_501 .wpsm_nav-tabs{
+	background-color: #fff!important;
+}
+.inquiery-for-section #tab_container_501 .wpsm_nav-tabs > li{
+	margin-right: 0px!important;
+}
+
+span.wpcf7-not-valid-tip
+{
+	font-size: 14px;
+}
+div.wpcf7-validation-errors
+{
+	font-size: 14px;
+}
+.export-slider-section .export-slider-row1 
+{
+	padding-top: 20%;
+}
+.export-slider-section .export-slider-row2 
+{
+	padding-top: 15%;
+	position: relative;
+	top: 40px;
+}
+.surface-cargo-col2 img
+{
+	position: relative;
+	top: 40px;
+}
+.footer-widget-1 #media_image-2 img
+{
+	max-width: 60% !important;
+}
+.home-center .center-image  img
+{
+	max-width: 70% !important;
+}
+.home-key-features .title-heading
+{
+	margin-bottom: 60px;
+}
+.our-key-features-row img
+{
+	width: 70%;
+}
+.about-slider-row1
+{
+	padding-top: 20%;
+}
+/*.about-slider-row2
+{
+	padding-top: 12%;
+	padding-bottom: 13%;
+}*/
+.our-presence-section .title-heading-white
+{
+	margin-bottom: 50px;
+}
+.our-presence-section .our-presemce-image img
+{
+	width: 40%;
+}
+.about-deliveries-section .wpb_single_image img
+{
+	width: 100%;
+}
+.about-deliveries-section .abour-delivery-col2 
+{
+	margin-top: 70px;
+}
+.abroid-services img
+{
+	width: 30%;
+}
+.fruits-img,.dairy-product
+{
+	width:25% !important;
+}
+.inquiery-for-section ul#myTab_501 a,.inquiery-for-section ul#myTab_501 span
+{
+	font-family:  'Muller'!important;
+	font-weight: bold !important;
+}
+.inquiery-for-section .courier-contact-form .contact-field,.inquiery-for-section .courier-contact-form .field-button,
+.inquiery-for-section .export-contact-form .contact-field,.inquiery-for-section .export-contact-form .field-button,
+.inquiery-for-section .cargo-contact-form .contact-field,.inquiery-for-section .cargo-contact-form .field-button
+{
+	margin-top: 15px;
+}
+.inquiery-for-section .courier-contact-form .field-button input,.inquiery-for-section .export-contact-form .field-button input,
+.inquiery-for-section .cargo-contact-form .field-button input
+{
+	border: 2px solid #682524;
+    background-color: #ffffff;
+    color: #682524;
+    border-radius: 30px;
+    font-family:'Muller'!important;
+    padding: 10px 40px;
+    font-size: 18px;
+}
+.inquiery-for-section .courier-contact-form  span.wpcf7-list-item
+{
+	margin: 0;
+	margin-right: 10px;
+	margin-left: 0 !important;
+}
+.inquiery-for-section .courier-contact-form  .other-head,.inquiery-for-section .export-contact-form  .other-head,
+.inquiery-for-section .cargo-contact-form  .other-head
+{
+	margin-left: 15px;
+	font-size: 25px !important;
+}
+.inquiery-for-section h3
+{
+	color: #ea5c23;
+	line-height: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family:'Muller'!important;
+    font-size: 30px;
+    display: none !important;
+}
+div.wpcf7-mail-sent-ok,div.wpcf7-validation-errors, div.wpcf7-acceptance-missing
+{
+	border: none;
+}
+.home-our-patners .description
+{
+	color: #000000;
+    font-size: 16px;
+}
+.thing-button-section a
+{
+	color: #682524;
+    box-shadow: none;
+    text-decoration: none;
+    border: 2px solid #682524;
+    padding: 12px;
+    border-radius: 40px;
+    font-family:'Muller'!important;
+    font-size: 16px;
+    font-weight: 600;
+}
+.thing-button-section p
+{
+	margin-top: 50px;
+}
+.home-our-patners  .title-heading
+{
+	margin-bottom: 30px !important;
+}
+.thing-button-section a:hover
+{
+	box-shadow: none;
+	color: #682524;
+}
+#wptime-plugin-preloader
+{
+	z-index: 99999;
+}
+.download-brochure
+{
+	background-color: #ffffff;
+    padding: 10px;
+    color: #000000;
+    font-weight: bold;
+}
+.download-brochure:hover,.download-brochure:focus
+{
+	text-decoration: none;
+	box-shadow: none;
+}
+.site-header.sticky-head
+{
+	position: fixed;
+    /*animation: smoothScroll 1s forwards;*/
+    transition: all 0.4s ease-in-out;
+    z-index: 9999;
+    top: 0;
+    background-color: rgb(255, 255, 255,0.8);
+}
+.site-header{
+	transition: all 0.4s ease-in-out;
+}
+.sticky-head{
+	padding: 8px 0px;
+}
+.sticky-head img{
+	height: 30px;
+}
+/*.comodity_main{
+	height: 250px;
+}*/
+
+.com_value.co_items,.co_items1,.co_items2 {
+    width: auto;
+    border: 2px solid #682524;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 5px;
+    cursor: pointer;
+    display: block;
+    font-family: 'Muller'!important;
+    font-size: 16px;
+    font-weight: bold;
+    color: #682524;
+}
+
+.com_sub_value,.com_sub_value1,.com_sub_value2 {
+    width: 45%;
+    background: #682524;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 5px;
+    font-family: 'Muller'!important;
+    display: none;
+}
+.com_sub_value{
+	display: inline-block;
+}
+.com_head {
+    position: relative;
+    clear: both;
+    
+    display: flex;
+}
+.expo_detail {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.expo_value.expo_items,.expo_items1,.expo_items2 {
+    width: auto;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family: 'Muller'!important;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+.form_tab {
+	margin: 1% auto;
+    color: #fff;
+    width: 40%;
+    border: 3px solid #682524;
+    border-radius: 50px;
+}
+
+.form_tab > div {
+    display: inline-block;
+    width: 32%;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #682524;
+    cursor: pointer;
+}
+.form_main_design1 {
+    background: #fff;
+    padding: 3%;
+    border-radius: 30px;
+}
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li{
+	margin-bottom: 0px!important;
+}
+.down::after{
+	content: "\f078";
+    float: right;
+    font: normal normal normal 14px/1 FontAwesome;
+    margin: 5px;
+}
+.up::after{
+	content: "\f077";
+    float: right;
+    font: normal normal normal 14px/1 FontAwesome;
+    margin: 5px;
+}
+.cargo-contact-form > div {
+    margin: 10px 0px;
+}
+.cargo-contact-form input {
+    background: #EEEEEE;
+    border: none!important;
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+.export-contact-form > div {
+    margin: 10px 0px;
+}
+.export-contact-form input {
+    background: #EEEEEE;
+    border: none!important;
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+.export-contact-form textarea {
+    background: #EEEEEE;
+    border: none!important;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+.courier-contact-form input {
+    background: #EEEEEE;
+    border: none!important;
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+.courier-contact-form > div {
+    margin: 10px 0px;
+}
+.content1,.content2,.content3{
+	display: none;
+}
+/*.content1{
+	display: block;
+}*/
+.form_title.active{
+	color: #fff;
+    background: #682524;
+    border-radius: 50px;
+    margin: 2px!important;
+}
+.expo_sub_value,.expo_sub_value1,.expo_sub_value2 {
+    width: 100%;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 5px;
+    font-family: 'Muller'!important;
+    display: none;
+}
+.expo_sub_value{
+	display: inline-block;
+}
+.export_main {
+    height: 300px;
+}
+.expo_head {
+	width: 48%;
+    position: relative;
+    clear: both;
+    display: inline-block;
+}
+.active{
+	display: inline-block!important;
+}
+
+div#popmake-821 {
+    background-image: url('https://zerogravitycommunications.com/website/caerus/wp-content/uploads/2020/04/bg-popup.jpg');
+    height: 350px;
+    background-size: cover;
+    background-position: center center;
+}
+.subscribe-form {
+    display: block;
+    height: auto;
+    position: absolute;
+    bottom: 5%;
+}
+.contact-field.sub-field-email input {
+    color: #eee;
+    border: none;
+    border-radius: 50px;
+    margin-left: 10%;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+.sub-field-button input.wpcf7-submit {
+    background: transparent!important;
+    margin-left: 5%;
+    color: #fff;
+    font-weight: 400;
+    padding: 8px 15px;
+    margin-top: 2%;
+    border-color: #fff!important;
+    font-size: 14px;
+}
+div#popmake-821 > div {
+	height: 100%;
+}
+.right_icon {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    font-size: 30px;
+    background: #682524;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    z-index: 999999;
+}
+.right_icon > a {
+    color: #fff;
+}
+.career-form_1{
+	border-radius: 50px;
+}
+.career-field input {
+    border-radius: 20px;
+    background: #eee;
+    border: none!important;
+}
+input.wpcf7-form-control.wpcf7-file{
+	border-radius: 0px;
+}
+.page-id-292 .menu-item-21 {
+    display: none;
+}
+
+.dsk{
+	display: flex!important;
+}
+.mob{
+	display: none!important;
+}
+.page-id-292 .have {
+    display: none;
+}
+
+@media only screen and (min-width: 1600px) {
+	.container
+	{
+		width: 1570px;
+
+	}
+}
+@keyframes smoothScroll {
+	0% {
+		transform: translateY(-40px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+@media only screen and (max-width: 600px) {
+	.title-heading{
+		font-size: 8vw;
+	}
+	.bg_ab_1{
+		background-size: cover;
+	}
+	.bg_ab_2{
+		margin-top: -2px!important;
+	}
+	.conth{
+		height: auto!important;
+	}
+	.inquiery-for-section{
+		padding: 0px!important;
+	}
+	input.wpcf7-form-control.wpcf7-file{
+		width: 100%;
+	}
+	.contacthead{
+		margin: 5% 0px 0%;
+		font-size: 20px;
+	}
+	.headercontact{
+		margin-bottom: 10%;
+	}
+	.dsk{
+		display: none!important;
+	}
+	.mob{
+		display: block!important;
+	}
+	.mobmenu .headertext{
+		margin-top: 10px;
+	}
+	.exp_bg{
+		margin-top: -2px!important;	
+	}
+	.form_title.active{
+		border-radius: 5px;
+		margin: 0px!important;
+	}
+	.form_tab{
+		width: 100%;
+		border-radius: 15px!important;
+	}
+	.form_tab > div{
+		width: 100%;
+	}
+	.career-form_1{
+		min-height:85vh;
+		margin: 5% 0px;
+	}
+	span.presence-heading {
+    display: block;
+    text-align: center;
+	}
+	.our-presence-section .our-presemce-image img {
+    margin: 10px auto;
+    display: table;
+	}
+	.nosp .wpb_content_element{
+		margin-bottom: 0px;
+	}
+	.have{
+		height: 200px;
+		text-align: center;
+	}
+	.have p{
+		margin: 20px 0px;
+		text-align: center;
+	}
+	.about-slider-row1 {
+	    margin: 5% 0px;
+	}
+	.about-slider-row1 img{
+		margin-top: 35px;
+	}
+	.title-heading-white {
+		line-height: 1.4;
+	}
+	.our-presence-section .title-heading-white{
+		margin-bottom: 20px;
+		margin-top: 50px;
+	}
+	.custom-logo-link img
+	{
+		width: 70%;
+	}
+	.header-menu .menu-toggle
+	{
+		font-size: 15px;
+	}
+	.site-header
+	{
+		position: unset;
+	}
+	.sec2
+	{
+		display: none;
+	}
+	.home-key-features .partners-logo
+	{
+		display: none !important;
+	}
+	.home-key-features
+	{
+		background-repeat: no-repeat;
+	}
+	.our-presence-section .description
+	{
+		padding-right: 0;
+	}
+	.bg_ab_2.our-presence-section
+	{
+		background-color: #7d0b12;
+	}
+	.bg_ab_2.our-presence-section
+	{
+		padding-bottom: 30px;
+	}
+	.courier-slider-section .description
+	{
+		padding-right: 0;
+	}
+	.courier-slider-section .courier-slider-row1
+	{
+		padding-top: 0%;
+	}
+	.courier-slider-section .courier-slider-row2
+	{
+		padding-top: 0;
+	}
+	.courier-section-two .internation-courier-heading
+	{
+		padding-top: 40%;
+		padding-left: 3%;
+	}
+	.courier-section-two .courier-international-row .courier-international-subhead
+	{
+		font-size: 25px;
+	}
+	.courier-section-two
+	{
+		background-repeat: no-repeat;
+		background-color: #6c2423;
+	}
+	
+	.courier-section-two .courier-domestic-row .description
+	{
+		padding-right: 0;
+	}
+	.courier-section-two .vc_column_container
+	{
+		padding: 0 !important;
+	}
+	.export-slider-section .exports-section-one-row
+	{
+		top:4%;
+	}
+	.export-section-two .export-abroad-col1
+	{
+		padding-top: 40%;
+		margin-top: 30%;
+		padding-left: 5%;
+	}
+	.export-section-two .export-abroad-col1 .description
+	{
+		padding-right: 5%;
+	}
+	.export-section-two .export-abroad-col2
+	{
+		padding-left: 5%;
+	}
+	.export-section-two .export-abroad-col3
+	{
+		padding-left: 5%;
+		padding-top: 0;
+		margin-top: 0;
+	}
+	.export-section-two
+	{
+		background-repeat: no-repeat;
+    	background-color: #2b308b;
+	}
+	.export-section-two .export-licensing-row
+	{
+		padding-top: 15%;
+	}
+	.export-licensing-row .title-heading-white
+	{
+		margin-top: 10%;
+	}
+	.cargo-section-one .description
+	{
+		width: 100%;
+	}
+	.cargo-section-one .cargo-section-one-row
+	{
+		padding-top: 0;
+	}
+	.express-cargo-head{
+		margin: 0px 5%;
+	}
+	.cargo-section-one
+	{
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom;
+	}
+	.cargo-section-two .cargo-air-head
+	{
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-top: 15%;
+	}
+	.cargo-section-two .express-cargo-head
+	{
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-top: 0;
+	}
+	.cargo-section-two .cargo-surface-head
+	{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.cargo-section-two
+	{
+		background-repeat: no-repeat;
+		background-color: #128974;
+	}
+	.custom-header .header-menu
+	{
+		display: none;
+	}
+	.contact-slider-row
+	{
+		padding-top: 5%;
+	}
+	.contact-form-section
+	{
+		height: auto;
+	}
+	.contact-slider-section
+	{
+		height: auto;
+	}
+	.contact-slider-section
+	{
+		background-color: #f0821a;
+	}
+	.contact-form-section-row
+	{
+		width: 90% !important;
+	}
+	.enquiry-now-menu
+  	{
+  		border: none !important;
+  	}
+  	.our-key-features-row .key-features
+	{
+		margin-bottom: 35px;
+	}
+	.home-our-patners
+	{
+		padding-top: 40px;
+	}
+	.home-key-features
+	{
+		padding-bottom: 0;
+	}
+	.home-center
+	{
+		padding-top: 35px;
+	}
+	.footer-widget-1 #media_image-2 img
+	{
+		width: 40%;
+	}
+	.site-footer .widget-area
+	{
+		padding-bottom: 0;
+	}
+	.about-slider-row1
+	{
+		padding-top: 10%;
+	}
+	.about-deliveries-section .wpb_single_image img
+	{
+		width: 90%;
+		margin: 5%;
+	}
+	.about-deliveries-section .abour-delivery-col2
+	{
+		margin-top: 0;
+		padding: 0 !important;
+	}
+	.about-deliveries-section .wpb_column.vc_column_container
+	{
+		padding: 5% 0px !important;
+	}
+	.export-slider-section{
+		background-image: none;
+		height: 100vh;
+	}
+	.export-slider-section .exports-section1-heading{
+		padding: 0px;
+		margin: 5% 0px;
+	}
+	.courier-slider-section{
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom;
+	}
+	h2.vc_custom_heading.exports-section1-heading{
+		margin-top: 5%;
+	}
+	.export-slider-section .description
+	{
+		padding-right: 0;
+	}
+	.export-slider-section .export-slider-row1
+	{
+		padding-top: 5%;
+	}
+	.export-slider-section .export-slider-row2
+	{
+		padding-top: 0;
+	}
+	.contact-form-section
+	{
+		padding-top: 45%;
+	}
+	/*.thing-deliver-img
+	{
+		top: 35px;
+	}*/
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .vc_row-fluid.sec2
+  {
+  	display: none;
+  }
+  .vc_custom_1580300811113
+  {
+  	background-repeat: no-repeat;
+  }
+  .home-key-features .key-features-head
+  {
+  	font-size: 16px;
+  	line-height: 22px;
+  }
+  .bg_ab_1
+  {
+  	min-height: auto !important;
+  	padding-top: 5%;
+  }
+  .our-presence-section .presence-heading
+  {
+  	display: block;
+  	margin-top: 10px;
+  }
+  .our-presence-section .description
+  {
+  	padding-right: 0;
+  }
+  .courier-slider-section .courier-slider-row1
+  {
+  	padding-top: 5%;
+  }
+  .courier-slider-section .description
+  {
+  	padding-right: 0;
+  }
+  .courier-slider-section .courier-slider-row2
+  {
+  	top:75px;
+  }
+  .courier-section-two .internation-courier-heading
+  {
+  	padding-top: 20%;
+  	padding-left: 5%;
+  }
+  .courier-international-row .vc_col-sm-4
+  {
+  		width: 100%;
+  }
+  .courier-section-two
+  {
+  	background-repeat: no-repeat;
+  	background-color: #682423;
+  }
+ 
+  .courier-section-two .courier-domestic-row .description
+  {
+  	padding-right: 0;
+  }
+  .vc_row-fluid.export-slider-section
+  {
+  	min-height: 44.1406vh !important;
+  }
+  .export-slider-section .exports-section-one-row
+  {
+  	top:10%;
+  }
+  .export-section-two .export-abroad-col1
+  {
+  	 margin-top: 20%;
+    padding-top: 20%;
+    padding-left: 5%;
+  }
+  .export-section-two .export-abroad-col3
+  {
+  	background-image: none;
+  	padding-top: 30%;
+  }
+  .export-section-two .export-abroad-col2
+  {
+  	padding-top: 30%;
+  }
+  
+  .export-section-two .export-abroad-col2 .abroid-services .abroid-services-heading, .export-section-two .export-abroad-col3 .abroid-services .abroid-services-heading
+  {
+  	display: block !important;
+  	margin-top: 10px;
+  }
+  .export-section-two .export-abroad-col2 .abroid-services, .export-section-two .export-abroad-col3 .abroid-services
+  {
+  	text-align: center;
+  }
+  .cargo-section-one .description
+  {
+  	width: auto;
+  }
+  .cargo-section-two .cargo-air-head,.cargo-section-two .cargo-surface-head
+  {
+  	padding-left: 5%;
+  	padding-right: 0;
+  }
+  .cargo-section-two .cargo-air-row
+  {
+  	padding-top: 20%;
+  }
+  .cargo-section-two .express-cargo-head
+  {
+  	padding-right: 0;
+  }
+  .contact-slider-section
+  {
+  	height: auto;
+  }
+  .contact-form-section
+  {
+  	height: 50vh;
+  }
+  .vc_custom_1580725582392
+  {
+  	background-position: unset !important;
+  }
+  .contact-form-section-row
+  {
+  	width: 90% !important;
+  	padding-left: 0;
+  	padding-right: 0;
+  }
+  .enquiry-now-menu
+  {
+  	border: none !important;
+  }
+  .bg_ab_1
+  {
+  	background-image: none;
+  }
+  .about-slider-row2
+  {
+  	padding: 0;
+  }
+  .about-slider-row1
+  {
+  	padding: 0;
+  }
+  .our-presence-section .our-presemce-image
+  {
+  	text-align: center;
+  }
+  .domestic-courier-col2 img
+  {
+  	top: 195px;
+  }
+  .export-section-two .export-abroad-col1 .description
+  {
+  	padding-right: 0;
+  }
+  .contact-slider-section
+	{
+		background-size: 100%;
+	}
+  .contact-slider-row
+  {
+  	padding-top: 0;
+  	padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 1921px){
+	.title-heading{
+		font-size: 1.8vw;
+	}
+}
+@media (min-width: 1024px) and (max-width: 1600px) {
+	.about_first {
+    	padding-bottom: 65px;
+	}
+	.sec2{
+		top: 38%;
+	}
+	.express-cargo-head {
+    padding: 0px 5%!important;
+	}
+	.custom-header .header-menu .menu li a
+	{
+		padding: 5px 18px;
+	}
+	.our-presence-section .presence-heading
+	{
+		display: block;
+		margin-top: 10px;
+	}
+	.our-presemce-image
+	{
+		text-align: center;
+	}
+	.our-presence-section .description
+	{
+		padding-right: 20%;
+	}
+	.contact-slider-section
+	{
+		height: auto;
+	}
+	.cargo-section-two .cargo-air-head
+	{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.cargo-section-two .express-cargo-head
+	{
+		padding-right: 5%;
+	}
+	.cargo-section-two .cargo-surface-head
+	{
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	/*.bg_ab_2
+	{
+		min-height:125vh !important;
+	}*/
+	.about-deliveries-section .abour-delivery-col2
+	{
+		margin-top: 40px;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 1366px) {
+
+	.export-section-two .export-abroad-col2 .abroid-services .abroid-services-heading, .export-section-two .export-abroad-col3 .abroid-services .abroid-services-heading
+	{
+		display: block;
+		margin-top: 10px;
+	}
+	.export-section-two .export-abroad-col2 .abroid-services, .export-section-two .export-abroad-col3 .abroid-services
+	{
+		text-align: center;
+	}
+	.export-section-two .export-abroad-col3
+	{
+		background-image: none;
+	}
+	.scooter
+	{
+		right: 60px;
+		width: 300px;
+	}
+/*	.bg_ab_1
+	{
+		background-size: 100%;
+	}
+	.about-slider-row2
+	{
+		padding-bottom: 9%;
+	}*/
+	.about-slider-row1
+	{
+		padding-top: 12%;
+	}
+	/*.bg_ab_2
+	{
+		min-height: 120vh;
+	}*/
+	.about-deliveries-section .abour-delivery-col2
+	{
+		margin-top: 0;
+	}
+	
+	.domestic-courier-col2 img
+	{
+		top: 117px;
+	}
+	/*.bg_ab_2
+	{
+		min-height:140vh !important;
+	}*/
+}
+
+@media (min-width: 800px) and (max-width: 1280px) {
+	.scooter
+	{
+		width: 22%;
+		right: 40px;
+	}
+	.bg_ab_1
+	{
+		background-size: cover;
+	}
+	.about-slider-row2
+	{
+		padding-bottom: 4%;
+	}
+	.about-slider-row1
+	{
+		padding-top: 12%;
+	}
+	/*.bg_ab_2
+	{
+		min-height: 120vh;
+	}*/
+	.about-deliveries-section .abour-delivery-col2
+	{
+		margin-top: 0;
+	}
+	.courier-section-two .internation-courier-heading,.courier-section-two .courier-domestic-row
+	{
+		padding-left: 6%;
+	}
+	.domestic-courier-col2 img
+	{
+		top:125px;
+	}
+	.contact-slider-section
+	{
+		background-size: 100%;
+	}
+	.contact-slider-row
+	{
+		padding-bottom: 0 !important;
+	}
+}
